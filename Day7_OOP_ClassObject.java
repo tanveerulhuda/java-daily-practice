@@ -1,4 +1,4 @@
-class Student {
+class OldStudent {
     String name;
     int age;
     double marks;
@@ -9,10 +9,11 @@ class Student {
         System.out.println("Marks: " + marks);
     }
 }
-	
+
 public class Day7_OOP_ClassObject {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        OldStudent s1 = new OldStudent();  // CORRECT
+
         s1.name = "Tanveer";
         s1.age = 24;
         s1.marks = 88.5;
